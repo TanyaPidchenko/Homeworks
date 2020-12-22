@@ -1,0 +1,50 @@
+.center-img {
+  display: block;
+  margin: 30px auto 100px;
+}
+
+h3 {
+  color: #46c073;
+  text-align: center;
+}
+
+form {
+   text-align: center;
+ }
+
+.votrenom {
+    text-indent: 40px;
+    padding-left: 55px;
+    width: 155px;
+    height: 30px;
+    background: url(../images/votrenom.png) no-repeat center left;
+    border-radius: 5px;
+}
+
+.votreemail {
+    text-indent: 40px;
+    padding-left: 55px;
+    width: 155px;
+    height: 30px;
+    background: url(../images/votreemail.png) no-repeat center left;
+    border-radius: 5px;
+}
+
+.votremessage {
+    text-indent: 10px;
+    padding-left: 60px;
+    margin: 20px auto 20px;
+    width: 370px;
+    height: 220px;
+    background: url(../images/votremessage.png) no-repeat center left;
+    border-radius: 5px;
+}
+
+
+.envoyer {
+    width: 435px;
+    height: 30px;
+    border: none;
+    background: url(../images/envoyer.png);
+    margin: 0 0 40px 0;
+}

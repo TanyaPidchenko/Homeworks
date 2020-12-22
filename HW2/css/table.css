@@ -1,0 +1,276 @@
+.heading {
+ border-top: 0;
+}
+
+tr {
+  text-align: center;
+}
+
+.yearoftheend {
+  color: blue;
+  border-collapse: collapse;
+  outline: 2px solid black;
+  outline-offset: 3px;
+  margin: 3px;
+}
+
+p {
+  text-align: center;
+}
+
+#greatbritain:hover::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 50px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg');
+  background-size: contain;
+}
+
+#germany:hover::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 40px;
+  background: url('https://rusflagcity.ru/data/gallery/1878.jpg');
+  background-size: contain;
+}
+
+#sweden:hover::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 40px;
+  background: url('https://blazon.ru/wp-content/uploads/2019/12/428.jpg');
+  background-size: contain;
+}
+
+#france:hover::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 40px;
+  background: url('https://flagstore.com.ua/wp-content/uploads/2016/11/France.jpg');
+  background-size: contain;
+}
+
+#austrohungary:hover::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 30px;
+  background: url('https://infoearth.ru/wp-content/uploads/2019/06/1280px-Flag_of_Austria-Hungary_1869-1918.svg_-870x400.png');
+  background-size: contain;
+}
+
+#switzerland:hover::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 50px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Civil_Ensign_of_Switzerland_%28Pantone%29.svg/200px-Civil_Ensign_of_Switzerland_%28Pantone%29.svg.png');
+  background-size: contain;
+}
+
+#russia:hover::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url('https://ic.pics.livejournal.com/tema/339052/409002/409002_original.gif');
+  background-size: cover;
+}
+
+#turkey:hover::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg');
+  background-size: cover;
+}
+
+#denmark:hover::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url('https://thumbs.dreamstime.com/b/%D1%84%D0%BB%D0%B0%D0%B3-%D0%B4%D0%B0%D0%BD%D0%B8%D0%B8-iluustration-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B0-107605747.jpg');
+  background-size: cover;
+}
+
+#belgium:hover::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 100px;
+  background: url('https://lh3.googleusercontent.com/proxy/JO5ZcxZdYQnEcRYBeyfkpwtHp1W7u0GhBi9IjOVR4nASKokRMNoDnl9Mx5uMtXyMHkPJ-l8X4ZTYyfYM-X6ynwES3HbKFVYgoY9_5gsRKig');
+  background-size: cover;
+}
+
+#netherlands:hover::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 100px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg');
+  background-size: cover;
+}
+
+#serbia:hover::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 100px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg');
+  background-size: cover;
+}
+
+#spain:hover::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 100px;
+  background: url('https://detrip.ru/wp-content/uploads/2018/01/flag-ispanii.jpg');
+  background-size: cover;
+}
+
+#japan:hover::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url('https://www.ukrdruk.com/wp-content/uploads/2019/02/flag-00006_450.jpg');
+  background-size: cover;
+}
+
+#argentina:hover::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 80px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg');
+  background-size: cover;
+}
+
+#montenegro:hover::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url('https://blog.sitngo.me/wp-content/uploads/2018/05/Flag_of_the_Principality_of_Montenegro.svg.png');
+  background-size: cover;
+}
+
+#paraguay:hover::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url('https://images.vector-images.com/117/f1823_paraguay.gif');
+  background-size: cover;
+}
+
+#italia:hover::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg');
+  background-size: cover;
+}
+
+#italia {
+  color: white;
+  background-color: #056708;
+}
+
+#bulgaria:hover::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url('https://po-ehali.ru/wp-content/uploads/%D0%A4%D0%BB%D0%B0%D0%B3-%D0%91%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D0%B8.jpg');
+  background-size: cover;
+}
+
+#norway:hover::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url('https://etvoe.com.ua/upload/suveniry/simvolika/0f54ccde-2f67-11e5-ac99-0025902b22c3.jpg');
+  background-size: cover;
+}
+
+#romania:hover::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg');
+  background-size: cover;
+}
+
+#albania:hover::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Flag_of_Albania_%281946%E2%80%931992%29.svg/200px-Flag_of_Albania_%281946%E2%80%931992%29.svg.png');
+  background-size: cover;
+}
+
+#portugal:hover::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url('https://thumbs.dreamstime.com/b/%D1%84%D0%BB%D0%B0%D0%B3-%D0%BF%D0%BE%D1%80%D1%82%D1%83%D0%B3%D0%B0%D0%BB%D0%B8%D1%8F-131897464.jpg');
+  background-size: cover;
+}
+
+#liechtenstein:hover::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Liechtenstein.svg');
+  background-size: cover;
+}
+
+#usa:hover::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url('https://thumbs.dreamstime.com/b/%D1%84%D0%BB%D0%B0%D0%B3-%D1%81%D1%88%D0%B0-9435639.jpg');
+  background-size: cover;
+}
+
+#luxembourg:hover::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Luxembourg.svg');
+  background-size: cover;
+}
+
+#greece:hover::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 100px;
+  background: url('https://f-gl.ru/images/flag/FlagGreece.png');
+  background-size: cover;
+}
+
+#mexico:hover::after {
+  content: "";
+  display: block;
+  width: 170px;
+  height: 100px;
+  background: url('https://summerhotels.ru/media/reviews/photos/thumbnail/1500x500s/84/9a/a2/meksika-69-1404462253.jpg');
+  background-size: cover;
+}
