@@ -1,0 +1,27 @@
+.choose{
+ font-size: 20px;
+ color: solid black;
+ text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link_conteiner{
+ text-align: center;
+ margin-top: 50px;
+}
+
+.flags_link{
+ padding: 10px 40px;
+}
+
+
+.link_style{
+ border: 1px solid black;
+ text-decoration: none;
+ font-weight: bold;
+ font-style:normal;
+ color: black;
+ background-color: cornflowerblue;
+ width: 50px;
+ height: 10px;
+}

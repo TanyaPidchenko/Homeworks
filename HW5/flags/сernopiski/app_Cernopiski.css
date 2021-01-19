@@ -1,0 +1,133 @@
+.Tajikistan{
+    position:relative;
+    margin:50px auto;
+    background:url(image/Tajikistan.png);
+    background-size: cover;
+    height:220px;
+    width:410px;
+}
+.text_Tajikistan{
+    display:none;
+    margin-left:130px;
+    padding:10px;
+    margin-top:17px;
+    height:50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.Tajikistan:hover .text_Tajikistan{
+    display:block;
+    position:absolute;
+    top:120px;
+    z-index:9999;
+    width:400px;
+}
+
+/*///////////////////////////////////*/
+
+
+.Philippines{
+    position:relative;
+    margin:50px auto;
+    background:url(image/flag-of-the-philippines.png);
+    background-size: cover;
+    height:280px;
+    width:400px;  
+}
+.text_Philippines{
+    display:none;
+    margin-left:130px;
+    padding:10px;
+    margin-top:17px;
+    height:50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.Philippines:hover .text_Philippines{
+    display:block;
+    position:absolute;
+    top:120px;
+    z-index:9999;
+    width:400px;
+}
+
+/*///////////////////////////////////*/
+
+.Switzerland{
+    position:relative;
+    margin:50px auto;
+    background:url(image/depositphotos_11058324-stock-photo-swiss-flag.jpg);
+    background-size: cover;
+    height:280px;
+    width:400px;  
+}
+.text_Switzerland{
+    display:none;
+    margin-left:130px;
+    padding:10px;
+    margin-top:17px;
+    height:50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.Switzerland:hover .text_Switzerland{
+    display:block;
+    position:absolute;
+    top:120px;
+    z-index:9999;
+    width:400px;
+}
+
+/*///////////////////////////////////*/
+.Ecuador{
+    position:relative;
+    margin:50px auto;
+    background:url(image/250px-Flag_of_Ecuador.svg.png);
+    background-size: cover;
+    height:280px;
+    width:400px;  
+}
+.text_Ecuador{
+    display:none;
+    margin-left:130px;
+    padding:10px;
+    margin-top:17px;
+    height:50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.Ecuador:hover .text_Ecuador{
+    display:block;
+    position:absolute;
+    top:120px;
+    z-index:9999;
+    width:400px;
+}
+
+/*///////////////////////////////////*/
+.Montenegro{
+    position:relative;
+    margin:50px auto;
+    background:url(image/monte.jpg);
+    background-size: cover;
+    height:360px;
+    width:400px;  
+}
+.text_Montenegro{
+    display:none;
+    margin-left:130px;
+    padding:10px;
+    margin-top:17px;
+    height:50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.Montenegro:hover .text_Montenegro{
+    display:block;
+    position:absolute;
+    top:120px;
+    z-index:9999;
+    width:400px;
+}
+
+

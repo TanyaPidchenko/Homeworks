@@ -1,0 +1,163 @@
+[data-tooltip]::after {
+ content: attr(data-tooltip);
+ position: absolute;
+ width: 100px;
+ left: 10px; 
+ top: 0;
+ background: #eaecee;
+ color: rgb(7, 7, 7);
+ padding: 0.5em;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+ pointer-events: none;
+ opacity: 0;
+ transition: 1s;
+ z-index: 1;
+} 
+[data-tooltip]:hover::after {
+ opacity: 1;
+ top: 2em;
+}
+
+
+
+.wrapper_belize{
+ margin-left: 20px;
+ height: 200px;
+ width: 300px;
+}
+
+.belize{
+ background: linear-gradient(#cc0e27 10%, #3106ca 10%, #3106ca 90%, #cc0e27 90%, #cc0e27 100% );
+}
+
+.belize_emblem{
+ background-image: url(beliz.png);
+ background-repeat: no-repeat;
+ background-size: 150px;
+ background-position-x: center;
+ background-position-y: center;
+ height: 200px;
+}
+
+.belize:hover{
+ background: #4d9e4c;
+}
+
+.belize:hover .belize_emblem{
+ width: 180px;
+ background: linear-gradient(#fad311 50%, #fc0000 50%, #fc0000 100%);
+ margin-left: 120px;
+}
+
+.wrapper_bahamas{
+ margin-left: 20px;
+ margin-top: 20px;
+}
+
+.bahamas{
+ position: absolute;
+ height: 200px;
+ width: 400px;
+ background: linear-gradient(#00BFFF 33%, #FFFF00 33%, #FFFF00 66%, #00BFFF 66%, #00BFFF 100% );
+}
+
+.bahamas_triangle{
+ height: 200px;
+ width: 400px;
+ clip-path: polygon(0% 0%, 40% 50%, 0% 100%);
+ background-color: black;
+}
+
+.wrapper_bosnia_and_herzegovina{
+ margin-left: 20px;
+ margin-top: 20px;
+}
+
+.bosnia_and_herzegovina{
+ height: 200px;
+ position: absolute;
+ width: 400px;
+ background-color: #000080;
+ overflow:hidden;
+}
+
+.bosnia_and_herzegovina_triangle{
+ height: 200px;
+ width: 400px;
+ clip-path: polygon(30% 0%, 80% 0%, 80% 100%);
+ background-color: #FFFF00;
+}
+.bosnia_and_herzegovina::before {
+ position: absolute;
+ content: '\272D \272D \272D \272D \272D \272D \272D \272D';
+ color: #fff;
+ font-size: 3rem;
+ letter-spacing: 0.33rem;
+ transform: translateY(-50%) rotate(45deg);
+ top: 50%;
+}
+
+.wrapper_danmark{
+ position: relative;
+ height: 200px;
+ width: 300px;
+ background-color: #DC143C;
+ margin-left: 20px;
+ margin-top: 20px;
+}
+
+.danmark_line_horizontal{
+ position: absolute;
+ top: 85px;
+ width: 300px;
+ height: 30px;
+ background-color: #fff;
+}
+
+.danmark_line_vertical{
+ position: absolute;
+ left: 100px;
+ height: 200px;
+ width: 30px;
+ background-color: #fff;
+}
+
+.wrapper_danmark:hover{
+ background: linear-gradient(#87ccf5 40%, #FFF 40%, #FFF 45%, #0a0901 45%, #0a0901 55%, #fff 55%, #fff 60%, #87ccf5 60%, #87ccf5 100% );
+}
+
+.wrapper_danmark:hover .danmark_line_horizontal{
+ display: none;
+}
+
+.wrapper_danmark:hover .danmark_line_vertical{
+ display: none;
+}
+
+.barbados{
+ position: relative;
+ height: 200px;
+ width: 300px;
+ background: linear-gradient(90deg, #283ea8 33%, #FFFF00 33%, #FFFF00 66%, #283ea8 66%, #283ea8 100% );
+ margin-left: 20px;
+ margin-top: 20px;
+}
+
+.barbados_emblem{
+ position: absolute;
+ background-image: url(barbados.png);
+ background-repeat: no-repeat;
+ background-size: contain;
+ height: 100px;
+ width: 80px;
+ left: 110px;
+ top: 60px;
+}
+
+.barbados:hover{
+ background: linear-gradient(#0a0901 33%, #fc0000 33%, #fc0000 66%, #fad311 66%, #fad311 100% );
+}
+
+.barbados:hover .barbados_emblem{
+ display: none;
+}

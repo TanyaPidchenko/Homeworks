@@ -1,0 +1,170 @@
+.block_one, .block_two, .block_three {
+  width: 640px;
+  height: 200px;
+  margin: auto;
+}
+
+[data-tooltip] {
+    position: relative;
+   }
+   [data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    width: 100px;
+    left: 0; bottom: 0;
+    background: #808080;
+    color: #fff;
+    border-radius: 1px;
+    padding: 0.5em;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.5s;
+   }
+   [data-tooltip]:hover::after {
+    opacity: 1;
+    bottom: 10px;
+   }
+
+.canada {
+  width: 300px;
+  height: 180px;
+  background: linear-gradient(90deg, #ff0000 30%, #fff 30%, #fff 70%, #ff0000 70%, #ff0000 100%);
+  border: 0.5px solid gray;
+  float:left;
+}
+
+.canada_emblem {
+  background-image: url(../images/canada.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 80px;
+  margin: 45px 0 0 110px;
+}
+
+.canada:hover{
+ background: linear-gradient(180deg, #fcd20f 50%, #003594 50%, #003594 75%, #cf0921 75%, #cf0921 100%);
+}
+
+.canada:hover .canada_emblem{
+ display: none;
+}
+
+.egypt {
+  width: 300px;
+  height: 180px;
+  background: linear-gradient(180deg, #cf0921 33%, #fff 33%, #fff 66%, #000 66%, #000 100%);
+  border: 0.5px solid gray;
+  float: right;
+}
+
+.egypt_emblem {
+  background-image: url(../images/egypt.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 65px;
+  width: 40px;
+  margin: 60px 0 0 130px;
+}
+
+.egypt:hover{
+ background: linear-gradient(90deg, #009b63 33%, #fff 33%, #fff 66%, #ff833a 66%, #ff833a 100%);
+}
+
+.egypt:hover .egypt_emblem{
+ display: none;
+}
+
+.israel {
+  width: 300px;
+  height: 180px;
+  background: linear-gradient(180deg, #fff 13%, #007afe 13%, #007afe 30%, #fff 30%, #fff 70%, #007afe 70%, #007afe 87%, #fff 87%);
+  border: 0.5px solid gray;
+  float: left;
+}
+
+.israel_emblem {
+  background-image: url(../images/israel.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 65px;
+  margin: 57px 0 0 115px;
+}
+
+.israel:hover{
+ background: #e90929;
+ background-image: url(../images/kyrgyzstan.png);
+ background-repeat: no-repeat;
+ background-size: 140px;
+ background-position: center;
+}
+
+.israel:hover .israel_emblem{
+ display: none;
+}
+
+.jordan {
+  width: 300px;
+  height: 180px;
+  background: linear-gradient(180deg, #000 33%, #fff 33%, #fff 66%, #007b3a 66%);
+  border: 0.5px solid gray;
+  float: right;
+}
+
+.jordan_triangle {
+ height: 180px;
+ width: 300px;
+ clip-path: polygon(0% 0%, 45% 50%, 0% 100%);
+ background-color: #cf0921;
+}
+
+.zimbabwe {
+  width: 300px;
+  height: 180px;
+  background: linear-gradient(180deg, #2d9302 14%, #ffd300 14%, #ffd300 29%, #df1a07 29%,
+  #df1a07 43%, #000 43%, #000 57%, #df1a07 57%, #df1a07 71%, #ffd300 71%, #ffd300 86%,
+  #2d9302 86%, #2d9302 100%);
+  border: 0.5px solid gray;
+  float: left;
+}
+
+.zimbabwe_triangle{
+ height: 180px;
+ width: 300px;
+ clip-path: polygon(0% 0%, 40% 50%, 0% 100%);
+ background-color: #fff;
+ background-image: url(../images/zimbabwe.png);
+ background-repeat: no-repeat;
+ background-size: 90px;
+ background-position: left;
+}
+
+.zambia {
+  width: 300px;
+  height: 180px;
+  background-color: #128b00;
+  position: relative;
+  float: right;
+}
+
+.zambia_gradient {
+  height: 120px;
+  width: 100px;
+  background: linear-gradient(90deg, #df1a07 33%, #000 33%, #000 66%, #ef7e00 66%, #ef7e00 100%);
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+
+.zambia_emblem {
+  width: 100px;
+  height: 80px;
+  background-image: url(../images/zambia.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
